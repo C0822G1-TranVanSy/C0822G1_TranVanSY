@@ -20,8 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b85af1-140b-4a27-9eeb-4387094aee0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss4_git_html/bai_tap/bai_tap_tao_cv.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss4_git_html/bai_tap/bai_tap_tao_danh_sach.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/bai_tap_tao _giao_dien_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/bai_tap_tao_form_don_gian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/tao_bang_don_gian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/tao_bang_nang_cao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/tao_form_lay_survey_khach_hang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/thuc_hanh/simpleform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/thuc_hanh/thuc_hanh_form_tim_kiem_google.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/thuc_hanh/thuc_hanh_tablesimple.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +58,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -73,6 +87,9 @@
       <workItem from="1662344214278" duration="222000" />
       <workItem from="1662344450187" duration="389000" />
       <workItem from="1662361066847" duration="1696000" />
+      <workItem from="1662363365113" duration="7605000" />
+      <workItem from="1662372128980" duration="1065000" />
+      <workItem from="1662427321007" duration="22560000" />
     </task>
     <servers />
   </component>
@@ -92,6 +109,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="449" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1662363739089">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="449" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1662363739089" />
     <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1662344800769">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
