@@ -20,16 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b85af1-140b-4a27-9eeb-4387094aee0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/bai_tap_tao _giao_dien_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/bai_tap_tao_form_don_gian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/tao_bang_don_gian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/tao_bang_nang_cao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/tao_form_lay_survey_khach_hang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/thuc_hanh/simpleform.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/thuc_hanh/thuc_hanh_form_tim_kiem_google.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_html_form_table/thuc_hanh/thuc_hanh_tablesimple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss6_tong_quan_javascript/thuc_hanh/demo1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss6_tong_quan_javascript/thuc_hanh/thuc_hanh_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss6_tong_quan_javascript/thuc_hanh/thuc_hanh_2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/tao_bang_nang_cao.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/tao_bang_nang_cao.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -90,6 +86,8 @@
       <workItem from="1662363365113" duration="7605000" />
       <workItem from="1662372128980" duration="1065000" />
       <workItem from="1662427321007" duration="22560000" />
+      <workItem from="1662464669323" duration="61000" />
+      <workItem from="1662524237950" duration="3524000" />
     </task>
     <servers />
   </component>
