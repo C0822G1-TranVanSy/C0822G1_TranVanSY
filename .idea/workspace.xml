@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b85af1-140b-4a27-9eeb-4387094aee0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss6_tong_quan_javascript/thuc_hanh/demo1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss6_tong_quan_javascript/thuc_hanh/thuc_hanh_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss6_tong_quan_javascript/thuc_hanh/thuc_hanh_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/bai_tap/bai1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/bai_tap/bai_tap_bien_kieu_du_lieu_toan_tu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/thuc_hanh/thuc_hanh2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/thuc_hanh/thuc_hanh_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/thuc_hanh/thuc_hanh_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/thuc_hanh/thuc_hanh_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/tao_bang_nang_cao.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/tao_bang_nang_cao.html" afterDir="false" />
     </list>
@@ -34,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -88,6 +92,7 @@
       <workItem from="1662427321007" duration="22560000" />
       <workItem from="1662464669323" duration="61000" />
       <workItem from="1662524237950" duration="3524000" />
+      <workItem from="1662540914015" duration="4660000" />
     </task>
     <servers />
   </component>
