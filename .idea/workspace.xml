@@ -20,15 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b85af1-140b-4a27-9eeb-4387094aee0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/bai_tap/bai1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/bai_tap/bai_tap_bien_kieu_du_lieu_toan_tu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/thuc_hanh/thuc_hanh2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/thuc_hanh/thuc_hanh_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/thuc_hanh/thuc_hanh_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/thuc_hanh/thuc_hanh_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/bai_tap/bai_tap_bien_kieudulieu_toantu/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/bai_tap/bai_tap_bien_kieudulieu_toantu/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/bai_tap/bai_tap_bien_kieudulieu_toantu/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/bai_tap/bai_tap_bien_kieudulieu_toantu/bai_4_chu_vi_hinh_tron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/bai_tap/bai_tap_ung_dung_may_tinh.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/tao_bang_nang_cao.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss5_html_form_table/bai_tap/tao_bang_nang_cao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/bai_tap/bai1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/bai_tap/bai_tap_bien_kieu_du_lieu_toan_tu.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/bai_tap/bai_tap_chuyen_doi _tien_te.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/thuc_hanh/thuc_hanh_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/thuc_hanh/thuc_hanh_1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -92,7 +93,9 @@
       <workItem from="1662427321007" duration="22560000" />
       <workItem from="1662464669323" duration="61000" />
       <workItem from="1662524237950" duration="3524000" />
-      <workItem from="1662540914015" duration="4660000" />
+      <workItem from="1662540914015" duration="5120000" />
+      <workItem from="1662599942059" duration="2146000" />
+      <workItem from="1662602144424" duration="14661000" />
     </task>
     <servers />
   </component>
@@ -116,6 +119,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="449" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1662363739089" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1662603616597">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1662603616597" />
     <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1662344800769">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -124,5 +131,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1662344559886" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1662604374310">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1662604374310" />
   </component>
 </project>
