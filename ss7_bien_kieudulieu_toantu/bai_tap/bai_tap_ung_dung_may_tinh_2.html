@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ungdungmt2</title>
+</head>
+<body>
+<h2>Calculator</h2>
+<label><input type="text" name="num1" id="number1"></label>
+<label><input type="text" name="num2" id="number2"></label><br><br>
+<button onclick="calculate('+')">Addition(+)</button>
+<button onclick="calculate('-')">Subtraction(-)</button>
+<button onclick="calculate('*')">Mutiplication(*)</button>
+<button onclick="calculate('/')">Division(/)</button>
+<p id="result"></p>
+</body>
+<script>
+    function calculate(operator) {
+        let a = +(document.getElementById("number1").value)
+        let b = +(document.getElementById("number2").value)
+        let result=0;
+        if (operator === '+') {
+            result = a + b
+        }
+        else if (operator === '-') {
+            result = a - b
+        }
+        else if (operator === '*') {
+            result = a * b
+        }
+        else if (operator === '/') {
+            result = a / b
+        }
+        document.getElementById("result").innerText = "Result:" + result
+    }
+</script>
+</html>

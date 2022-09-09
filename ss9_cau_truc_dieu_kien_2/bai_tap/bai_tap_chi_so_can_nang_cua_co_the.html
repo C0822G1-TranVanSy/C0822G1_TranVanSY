@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cannang</title>
+</head>
+<body>
+<h2>Tính số cân nặng</h2>
+    Nhập cân nặng: (kg)
+    <label>
+        <input type="text" name="weight" id="weight">
+    </label><br><br>
+    Nhập chiều cao: (m)
+    <label>
+        <input type="text" name="height" id="height">
+    </label><br>
+    <button onclick="dosomething()">Kiểm tra</button>
+    <br><br><br>
+    <p id="result1"></p>
+</body>
+<script>
+    function dosomething() {
+        let myweight= + document.getElementById("weight").value;
+        let myheight= + document.getElementById("height").value;
+        let bmi = myweight / ( myheight ^ 2 );
+        if (bmi < 18.5){
+            document.getElementById("result1").innerText="BMI là: Underweight";
+        }
+        else if (bmi < 25){
+            document.getElementById("result1").innerText="BMI là: Normal";
+        }
+        else if (bmi < 30){
+            document.getElementById("result1").innerText="BMI là: Overweight";
+        }
+        else
+            document.getElementById("result1").innerText="BMI là: Obese";
+    }
+</script>
+<!--<script>-->
+<!--    let weight= +prompt("Nhập cân nặng(kg):  ");-->
+<!--    let height= +prompt("Nhập chiều cao(m):  ");-->
+<!--    let bmi = weight / ( height ^ 2 )-->
+<!--    if (bmi < 18.5)-->
+<!--        alert("Underweight");-->
+<!--    else if (bmi < 25)-->
+<!--        alert("Normal");-->
+<!--    else if (bmi < 30)-->
+<!--        alert("Overweight");-->
+<!--    else-->
+<!--        alert("Obese");-->
+<!--</script>-->
+</html>
