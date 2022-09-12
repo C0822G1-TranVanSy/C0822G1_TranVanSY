@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exe6</title>
+</head>
+<body>
+
+</body>
+<script>
+    let doanhso = + prompt("Nhập doanh thu bán hàng: ");
+    let hoahong1;
+    let hoahong2;
+    let hoahong3;
+    if (doanhso <= 100000000) {
+        hoahong1 = doanhso * 5 / 100;
+            alert("Hoa hồng nhận được: " + hoahong1);
+    } else if ( doanhso <= 300000000) {
+        hoahong2 = doanhso * 10 / 100;
+            alert("Hoa hồng nhận được: " + hoahong2);
+    } else {
+        hoahong3 = doanhso * 20 / 100;
+            alert("Hoa hồng nhận được: " + hoahong3);
+    }
+</script>
+</html>

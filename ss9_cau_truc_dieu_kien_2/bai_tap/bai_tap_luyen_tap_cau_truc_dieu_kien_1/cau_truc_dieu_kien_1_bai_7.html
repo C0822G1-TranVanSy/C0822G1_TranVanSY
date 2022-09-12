@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exe7</title>
+</head>
+<body>
+
+</body>
+<script>
+    let feedefault = 50000;
+    let fee;
+    let minute = +prompt("Nhập số phút gọi: ")
+    if (minute > 200) {
+         fee = (minute - 200) * 200 + 150 * 400 + 50 * 600 + feedefault;
+
+    } else if (minute > 150) {
+        fee = (minute - 150) * 400 + 50 * 600 + feedefault;
+    } else if (minute > 50) {
+        fee = minute*600 + feedefault;
+    }
+    alert("Số phí phải trả: " + fee);
+
+</script>
+</html>

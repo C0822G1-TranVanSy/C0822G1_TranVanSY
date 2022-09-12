@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exe5</title>
+</head>
+<body>
+
+</body>
+<script>
+    let diemKt = +prompt("Nhập điểm kiểm tra 15p: ");
+    let diemGk = +prompt("Nhập điểm kiểm tra giữa kỳ: ");
+    let diemCk = +prompt("Nhập điểm kiểm tra cuối kỳ: ");
+    let diemTb = (diemKt + diemGk + diemCk)/3;
+    if (diemTb >= 9) {
+        alert("Học lực giỏi");
+    } else if (diemTb >= 7) {
+        alert("Học lực khá");
+    } else if (diemTb >= 5) {
+        alert("Học lực trung bình");
+    } else {
+        alert("Học lực yếu");
+    }
+
+</script>
+</html>

@@ -7,6 +7,9 @@
         table {
             border-collapse: collapse;
         }
+
+        #table-1 tr:nth-child(even) {background: #CCC}
+        #table-1 tr:nth-child(odd) {background: #FFF}
     </style>
 </head>
 <body>
@@ -68,8 +71,8 @@
         <textarea style="width: 100%;height: 100px"></textarea>
     </label>
     <p><strong>Please rate your level of agreement with the following statements.</strong></p>
-    <table border="1" style=border-collapse: width="100%">
-        <tr align="center" style="background: darkgrey;height: 50px">
+    <table id="table-1" border="1" style="border-collapse: collapse;width: 100%;">
+        <tr align="center" style="height: 50px;">
             <th> </th>
             <th>Strongly Disagree</th>
             <th>Disagree</th>
@@ -83,14 +86,14 @@
             <td><label><input type="radio" name="rate1"><br>3</label></td>
             <td><label><input type="radio" name="rate1"><br>4</label></td>
         </tr>
-        <tr align="center" style="background: darkgrey;height: 50px">
+        <tr align="center" style="height: 50px">
             <td align="left">Our products are high quality.</td>
             <td><label><input type="radio" name="rate2"><br>1</label></td>
             <td><label><input type="radio" name="rate2"><br>2</label></td>
             <td><label><input type="radio" name="rate2"><br>3</label></td>
             <td><label><input type="radio" name="rate2"><br>4</label></td>
         </tr>
-        <tr align="center" style="50px">
+        <tr align="center" style="height: 50px">
             <td align="left">You would recommend our product to a friend or coworker.</td>
             <td><label><input type="radio" name="rate3"><br>1</label></td>
             <td><label><input type="radio" name="rate3"><br>2</label></td>

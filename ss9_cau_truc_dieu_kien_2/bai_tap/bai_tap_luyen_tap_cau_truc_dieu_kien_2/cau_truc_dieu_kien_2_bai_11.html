@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exe11</title>
+</head>
+<body>
+
+</body>
+<script>
+    let salary= +prompt("Nhập lương cơ bản (triệu): ");
+    let tax;
+    switch (true) {
+        case salary>80:
+            tax = salary * 35 /100;
+            break;
+            case salary>52:
+                tax = salary * 30 /100;
+                break;
+                case salary>32:
+                    tax = salary * 25 /100;
+                    break;
+                    case  salary>18:
+                        tax = salary * 20 /100;
+                        break;
+                        case  salary>10:
+                            tax = salary * 15 /100;
+                            break;
+                            case  salary>5:
+                                tax = salary * 10 /100;
+                                break;
+                                default:
+                                    tax = salary * 5 /100;
+
+    }
+    alert("Thuế thu nhập cá nhân là (triệu): " + tax);
+</script>
+</html>
