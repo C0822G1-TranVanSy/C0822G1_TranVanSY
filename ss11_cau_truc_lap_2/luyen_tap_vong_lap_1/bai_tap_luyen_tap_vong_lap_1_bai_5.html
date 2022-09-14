@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exe5</title>
+</head>
+<body>
+
+</body>
+<script>
+    let fibonacci = +prompt("Nhập n số trong dãy fibonacci");
+    let n1 = 0;
+    let n2 = 1;
+    let total;
+    for (let i = 0; i < fibonacci; i++) {
+        document.write(n1 + "<br>");
+        total = n1 + n2;
+        n1 = n2;
+        n2 = total;
+    }
+    document.write(total);
+</script>
+</html>

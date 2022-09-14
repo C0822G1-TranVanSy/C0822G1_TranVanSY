@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exe8</title>
+</head>
+<body>
+<button type="button" value="start" onclick="dost()">Bắt đầu</button>
+</body>
+<script>
+    function dost() {
+        let number = +prompt("Nhập khoảng bạn muốn đoán: ");
+        let ramdom = Math.floor(Math.random() * number);
+        let guess = +prompt("Nhập số bạn đoán: ");
+        let count = 0;
+        while (count < 4) {
+            count++;
+            if (count === 3) {
+                alert("Bạn đã hết số lần đoán");
+                break;
+            } else if (guess > ramdom) {
+                alert("Số bạn đoạn đang lớn hơn, hãy nhập lại");
+                guess = +prompt("Nhập số bạn đoán: ");
+            } else if (guess < ramdom) {
+                alert("Số bạn đoạn đang bé hơn, hãy nhập lại");
+                guess = +prompt("Nhập số bạn đoán: ");
+            } else {
+                alert("Chúc mừng bạn đã đoán đúng số: ");
+                break;
+            }
+        }
+    }
+</script>
+</html>

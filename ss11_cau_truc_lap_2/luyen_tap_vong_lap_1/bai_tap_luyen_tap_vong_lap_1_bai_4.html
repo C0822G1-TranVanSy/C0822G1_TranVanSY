@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exe4</title>
+</head>
+<body>
+
+</body>
+<script>
+    let fibonacci = +prompt("Nhập n số trong dãy fibonacci");
+    let n1 = 0;
+    let n2 = 1;
+    let total;
+    for (let i = 0; i < fibonacci; i++) {
+        total = n1 + n2;
+        n1 = n2;
+        n2 = total;
+        if (n1 % 5 === 0) {
+            document.write("Số fibonacci chia hết cho 5 đầu tiên là: " + n1);
+            break;
+        }
+    }
+</script>
+</html>

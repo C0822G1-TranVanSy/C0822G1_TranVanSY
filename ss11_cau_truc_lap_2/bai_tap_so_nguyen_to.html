@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>songuyento</title>
+</head>
+<body>
+
+</body>
+<script>
+    let n = 2;
+    let soluongnt = 0;
+    while (soluongnt < 20) {
+        let count = 0;
+        for (let i = 2; i < n; i++) {
+            if (n % i === 0) {
+                count++;
+            }
+        }
+        if (count === 0) {
+            soluongnt++;
+            document.write(n + "<br>");
+        }
+        n++;
+    }
+
+</script>
+</html>
