@@ -20,25 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b85af1-140b-4a27-9eeb-4387094aee0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss10_cau_truc_lap_1/thuc_hanh_vong_lap_do_while.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10_cau_truc_lap_1/thuc_hanh_vong_lap_for.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10_cau_truc_lap_1/thuc_hanh_vong_lap_long_nhau.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10_cau_truc_lap_1/thuc_hanh_vong_lap_while.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap_sinh_bang_cuu_chuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/bai_tap_so_nguyen_to.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/luyen_tap_vong_lap_1/bai_tap_luyen_tap_vong_lap_1_bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/luyen_tap_vong_lap_1/bai_tap_luyen_tap_vong_lap_1_bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/luyen_tap_vong_lap_1/bai_tap_luyen_tap_vong_lap_1_bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/luyen_tap_vong_lap_1/bai_tap_luyen_tap_vong_lap_1_bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/luyen_tap_vong_lap_1/bai_tap_luyen_tap_vong_lap_1_bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/luyen_tap_vong_lap_1/bai_tap_luyen_tap_vong_lap_1_bai_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/luyen_tap_vong_lap_1/bai_tap_luyen_tap_vong_lap_1_bai_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/luyen_tap_vong_lap_1/bai_tap_luyen_tap_vong_lap_1_bai_8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/luyen_tap_vong_lap_2/bai_tap_luyen_tap_vong_lap_2_bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/luyen_tap_vong_lap_2/bai_tap_luyen_tap_vong_lap_2_bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/luyen_tap_vong_lap_2/bai_tap_luyen_tap_vong_lap_2_bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/luyen_tap_vong_lap_2/bai_tap_luyen_tap_vong_lap_2_bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_2/luyen_tap_vong_lap_2/bai_tap_luyen_tap_vong_lap_2_bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_array/thuc_hanh_ban_co.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_array/thuc_hanh_dao_nguoc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_array/thuc_hanh_tao_thao_tac_voi_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_array/thuc_hanh_tim_gia_tri_lon_nhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_array/thuc_hanh_tim_gia_tri_trong_mang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,6 +116,9 @@
       <workItem from="1663033409564" duration="16662000" />
       <workItem from="1663079670053" duration="4207000" />
       <workItem from="1663118224877" duration="21401000" />
+      <workItem from="1663164378830" duration="59000" />
+      <workItem from="1663205481020" duration="2214000" />
+      <workItem from="1663223884979" duration="2975000" />
     </task>
     <servers />
   </component>
