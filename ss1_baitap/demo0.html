@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let numbers = +prompt("Nhập số lượng mảng");
+    let array = [];
+    let sum1 = 0;
+    let sum2 = 0;
+    let value = 0;
+    if (numbers <= 50) {
+        for (let i = 0; i < numbers; i++) {
+            array[i] = +prompt("Nhập vào 1 số: ")
+            document.write(array[i] + ", ")
+
+        }
+        for (let i = 0; i < array.length; i += 2) {
+            sum1 += array[i];
+        }
+        document.write(sum1 + " ")
+        for (let i = 1; i < array.length; i += 2) {
+            sum2 += array[i];
+
+        }
+        document.write(sum2 + " ")
+        value = sum1 - sum2;
+        document.write(value + " là giá trị cuối cùng")
+    }
+
+</script>
+</html>

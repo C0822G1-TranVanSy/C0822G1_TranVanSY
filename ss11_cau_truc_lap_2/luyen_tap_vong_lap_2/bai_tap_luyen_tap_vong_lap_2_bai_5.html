@@ -13,11 +13,11 @@
     let lai = +prompt("Nhập số lãi (Nhập %): ");
     let i;
     let interest = 0;
-    let tongtien = borrow;
+    let total = borrow;
     for (i = 1; i <= month; i++) {
-        interest = (tongtien * lai / 100);
-        tongtien = borrow + interest;
-        borrow = tongtien;
+        interest = (total * lai / 100);
+        total = borrow + interest;
+        borrow = total;
     }
     alert("Số lãi ngân hàng: " + Math.round(interest));
 </script>

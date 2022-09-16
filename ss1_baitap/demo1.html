@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let S = 0;
+    let n = +prompt("Nhập n: ");
+    gt(n);
+
+    function gt(x) {
+        let T = 1;
+        for (let i = 1; i <= x; i++) {
+            T = T * i;
+        }
+        return T;
+    }
+
+    for (let i = 1; i <= n; i++) {
+        S += 1 / gt(2 * i - 1);
+    }
+    document.write(S)
+
+</script>
+</html>

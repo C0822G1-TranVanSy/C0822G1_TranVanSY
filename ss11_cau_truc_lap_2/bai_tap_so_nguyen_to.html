@@ -9,8 +9,8 @@
 </body>
 <script>
     let n = 2;
-    let soluongnt = 0;
-    while (soluongnt < 20) {
+    let soLuong = 0;
+    while (soLuong < 20) {
         let count = 0;
         for (let i = 2; i < n; i++) {
             if (n % i === 0) {
@@ -18,7 +18,7 @@
             }
         }
         if (count === 0) {
-            soluongnt++;
+            soLuong++;
             document.write(n + "<br>");
         }
         n++;
