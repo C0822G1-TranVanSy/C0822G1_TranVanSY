@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let n = prompt("Nhập chuỗi 1");
+    let array1 = Array.from(n.toString());
+    let m = prompt("Nhập chuỗi 1");
+    let array2 = Array.from(m.toString());
+    let count=0;
+    for (let i = 0; i < array1.length ; i++) {
+        if (array1[i]!==array2[i]){
+            count++;
+        }
+    }
+    if (connt>0){
+        document.write("2 chuỗi ko giống nhau");
+    }
+</script>
+</html>

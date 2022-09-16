@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let array = [5, 7, 15, -1, 6, 0, 11, 52, 9, 42];
+    let max = array[0];
+    let index = 0;
+    for (let i = 0; i < array.length; i++) {
+        if (max < array[i]) {
+            max = array[i];
+            index = i;
+        }
+    }
+    document.write("Giá trị lớn nhất trong mảng: " + max + " là phần tử thứ: " + index);
+</script>
+</html>

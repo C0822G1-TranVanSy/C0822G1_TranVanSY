@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tudien</title>
+</head>
+<body>
+<label for="eng">Nhập</label>
+<input type="text" id="eng">
+<button onclick="translate1()">Dịch</button>
+<p id="result"></p>
+</body>
+<script>
+    function translate1() {
+        let text = document.getElementById("eng").value;
+        let english = ["apple", "banana", "orange", "melon"];
+        let vietnamese = ["táo", "chuối", "cam", "dua"];
+        for (let i = 0; i < english.length; i++) {
+            if (text === english[i]) {
+                document.getElementById("result").innerText = vietnamese[i];
+                break;
+            } else {
+                document.getElementById("result").innerText = "Không có từ này";
+            }
+        }
+    }
+
+</script>
+</html>

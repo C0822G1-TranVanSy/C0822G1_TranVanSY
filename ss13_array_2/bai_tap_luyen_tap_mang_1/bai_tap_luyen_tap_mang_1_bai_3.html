@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let n = +prompt("Nhập chiều dài mảng");
+    let array = [];
+    for (let i = 0; i < n; i++) {
+        array[i] = +prompt("Nhập pt thứ: " + (i + 1));
+    }
+    let max = array[0];
+    let average = 0;
+    for (let i = 0; i < array.length; i++) {
+        if (max < array[i]) {
+            max = array[i];
+        }
+        average += array[i] / array.length;
+    }
+    document.write("Giá trị lớn nhất trong mảng: " + max + "<br>");
+    document.write("Trung bình các số trong mảng: " + average);
+</script>
+</html>
