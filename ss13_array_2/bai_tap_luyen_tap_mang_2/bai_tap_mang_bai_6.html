@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let n = prompt("Nhập chuỗi 1");
+    let array = Array.from(n.toString());
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === "-") {
+            array.splice(i, 1, "_");
+        }
+    }
+    document.write("Chuỗi mới: " + array);
+
+</script>
+</html>

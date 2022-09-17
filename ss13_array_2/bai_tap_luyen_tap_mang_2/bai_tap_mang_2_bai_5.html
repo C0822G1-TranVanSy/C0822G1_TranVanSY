@@ -10,15 +10,21 @@
 <script>
     let n = prompt("Nhập chuỗi 1");
     let array1 = Array.from(n.toString());
-    let m = prompt("Nhập chuỗi 1");
+    let m = prompt("Nhập chuỗi 2");
     let array2 = Array.from(m.toString());
-    let count=0;
-    for (let i = 0; i < array1.length ; i++) {
-        if (array1[i]!==array2[i]){
-            count++;
+    let count = 0;
+    if (array1.length === array2.length) {
+        for (let i = 0; i < array1.length; i++) {
+            if (array1[i] !== array2[i]) {
+                count++;
+            }
         }
-    }
-    if (connt>0){
+        if (count > 0) {
+            document.write("2 chuỗi ko giống nhau");
+        } else {
+            document.write("2 chuỗi giống nhau");
+        }
+    }else {
         document.write("2 chuỗi ko giống nhau");
     }
 </script>
