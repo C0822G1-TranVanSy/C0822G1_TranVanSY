@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b85af1-140b-4a27-9eeb-4387094aee0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss13_array_2/bai_tap_luyen_tap_mang_2/bai_tap_mang_bai_6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_array_2/bai_tap_luyen_tap_mang_2/bai_tap_mang_2_bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_array_2/bai_tap_luyen_tap_mang_2/bai_tap_mang_2_bai_4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss13_array_2/bai_tap_luyen_tap_mang_2/bai_tap_mang_2_bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_array_2/bai_tap_luyen_tap_mang_2/bai_tap_mang_2_bai_5.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,6 +120,8 @@
       <workItem from="1663249850913" duration="3998000" />
       <workItem from="1663292117089" duration="21468000" />
       <workItem from="1663382023654" duration="1293000" />
+      <workItem from="1663383539220" duration="22000" />
+      <workItem from="1663552565724" duration="2781000" />
     </task>
     <servers />
   </component>

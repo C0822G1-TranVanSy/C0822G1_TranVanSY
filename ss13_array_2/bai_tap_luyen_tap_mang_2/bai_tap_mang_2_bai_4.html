@@ -6,15 +6,15 @@
 </head>
 <body>
 <script>
-    let n = prompt("Nhập chuỗi");
-    let array = Array.from(n.toString());
+    let str = prompt("Nhập chuỗi: ");
+    let array = str.split(" ");
     let count = 0;
     for (let i = 0; i < array.length; i++) {
-        if (array[i] > "a" && "z" < array[i] || array[i] > "A" && "Z" < array[i]) {
-            count++;
+        if (array[i] !== "") {
+            count++
         }
     }
-    document.write(count);
+    document.write("Số từ trong chuỗi: " + count);
 </script>
 </body>
 </html>
