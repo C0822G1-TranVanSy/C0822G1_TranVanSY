@@ -15,11 +15,13 @@
     let v = +prompt("Nhập số nguyên V: ");
     for (let i = 0; i < nums.length; i++) {
         if (v === nums[i]) {
-            for (let j = i; j < nums.length; j++) {
+            for (let j = i; j < nums.length-1; j++) {
                 nums[j] = nums[j + 1];
             }
             nums[nums.length - 1] = 0;
+            i--;
         }
+
     }
     document.write(nums.join(","));
 </script>

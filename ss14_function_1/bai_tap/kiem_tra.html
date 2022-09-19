@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let length = +prompt("Nhập độ dài mảng: ");
+    let array = [];
+    for (let i = 0; i < length; i++) {
+        array[i] = +prompt("Nhập pt thứ: " + (i + 1));
+    }
+    document.write(array + "<br>");
+
+    function maxArray(array) {
+        let max = array[0];
+        for (let i = 0; i < array.length; i++) {
+            if (max < array[i]) {
+                max = array[i];
+            }
+        }
+        return max;
+    }
+
+    let result = maxArray(array);
+    let count = 0;
+    for (let i = 0; i < array.length; i++) {
+        if (result === array[i]) {
+            count++;
+        }
+    }
+    document.write("Số lượng số lớn nhất trong mảng: " + count);
+</script>
+</html>

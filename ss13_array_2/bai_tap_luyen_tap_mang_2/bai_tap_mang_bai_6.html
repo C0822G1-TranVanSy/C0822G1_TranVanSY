@@ -8,14 +8,14 @@
 
 </body>
 <script>
-    let n = prompt("Nhập chuỗi 1");
-    let array = Array.from(n.toString());
+    let str = prompt("Nhập chuỗi: ");
+    let array = str.split("");
     for (let i = 0; i < array.length; i++) {
         if (array[i] === "-") {
             array.splice(i, 1, "_");
         }
     }
-    document.write("Chuỗi mới: " + array);
+    document.write("Chuỗi thay thế: " + array);
 
 </script>
 </html>
