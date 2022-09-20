@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label for="num1"></label><input type="text" id="num1">
+<button onclick="tangSo()">Click me!</button>
+<p id="result1"></p>
+</body>
+<script>
+    function checkNumber(number) {
+        number++;
+        return number;
+    }
+
+    function tangSo() {
+        let number = document.getElementById("num1").value;
+        let result = checkNumber(number);
+        document.getElementById("result1").innerText = result;
+    }
+</script>
+</html>

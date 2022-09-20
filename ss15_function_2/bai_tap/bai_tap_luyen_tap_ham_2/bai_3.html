@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+
+    function giaiThua() {
+
+        if (Number.isInteger(number)) {
+            let tich = 1;
+            for (let i = 1; i <= number; i++) {
+                tich *= i;
+            }
+            return tich;
+        } else {
+            return "Nhập lại số nguyên";
+        }
+
+    }
+    let number = +(prompt("Nhập số nguyên: "));
+    result = giaiThua(number);
+    alert("Kết quả: " + result);
+</script>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    star1 = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+    star2 = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+
+    function checkStar() {
+        let str = prompt("Nhập chuỗi: ");
+        for (let i = 0; i < star1.length; i++) {
+            if (str === star1[i]) {
+                return star2[i];
+            }
+        }
+        return "Không tìm thấy ngôi sao";
+    }
+
+    result = checkStar();
+    alert(result);
+</script>
+</html>

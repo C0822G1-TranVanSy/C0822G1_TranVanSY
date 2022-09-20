@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function mang1() {
+        let doDai = +prompt("Nhap do dai mang");
+        let array = [];
+        for (let i = 0; i < doDai; i++) {
+            array[i] = +prompt("Nhập phần tử thứ " + (i + 1));
+        }
+        let number = +prompt("Nhập số bất kỳ");
+        let count = 0;
+        for (let i = 0; i < array.length; i++) {
+            if (number === array[i]) {
+                count++;
+            }
+        }
+        document.write(count);
+    }
+
+    mang1();
+
+</script>
+</html>
