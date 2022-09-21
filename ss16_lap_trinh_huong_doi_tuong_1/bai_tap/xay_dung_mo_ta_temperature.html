@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    class Temperature {
+        constructor(doC) {
+            this.doC = doC;
+        }
+
+        // setDoC(doC){
+        //     this.doC = doC;
+        // }
+        // getDoC(){
+        //     return this.doC;
+        // }
+        getDoF() {
+            return 9 / 5 * this.doC + 32;
+        }
+
+        getDoK() {
+            return 273.15 + this.doC;
+        }
+    }
+
+    let chuyendoi = new Temperature(25);
+    let doF = chuyendoi.getDoF();
+    let doK = chuyendoi.getDoK();
+    document.write("Nhiệt độ F: " + doF + "<br>" + "Nhiệt độ K: " + doK);
+
+</script>
+</html>

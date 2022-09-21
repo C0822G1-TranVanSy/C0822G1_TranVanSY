@@ -8,16 +8,13 @@
 
 </body>
 <script>
-    function mang() {
-        let doDai = +prompt("Nhap do dai mang");
-        let array = [];
-        for (let i = 0; i < doDai; i++) {
-            array[i] = +prompt("Nhập phần tử thứ " + (i + 1));
-        }
+    function reverse(array) {
         return array.reverse();
     }
 
-    let result = mang();
+    let array1 = [1, 2, 3, 4, 5];
+    let result = reverse(array1);
+
     document.write("Mảng đã đảo ngược: " + result);
 </script>
 </html>

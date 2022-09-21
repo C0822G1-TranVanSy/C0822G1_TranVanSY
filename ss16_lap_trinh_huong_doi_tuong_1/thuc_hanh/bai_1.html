@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    class MyDate {
+        constructor(day, month, year) {
+            this.day = day;
+            this.month = month;
+            this.year = year;
+        }
+
+        setday(day) {
+            this.day = day;
+        }
+
+        getday() {
+            return this.day;
+        }
+
+        setmonth(month) {
+            this.month = month;
+        }
+
+        getmonth() {
+            return this.month;
+        }
+
+        setyear(year) {
+            this.year = year;
+        }
+
+        getyear() {
+            return this.year;
+        }
+    }
+
+    let date = new MyDate(20, 5, 1997);
+    document.write("Ngày: " + date.day + " Tháng: " + date.month + " Năm: " + date.year + "<br>");
+    date.setday(25);
+    date.setmonth(12);
+    date.setyear(2000);
+    let ngay = date.getday();
+    let thang = date.getmonth();
+    let nam = date.getyear();
+    document.write("Ngày: " + ngay + " Tháng: " + thang + " Năm: " + nam);
+
+</script>
+</html>

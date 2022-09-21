@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="ten" placeholder="nhập Họ và tên">
+<input type="text" id="tuoi" placeholder="nhập tuổi">
+<input type="text" id="diaChi" placeholder="nhập địa chỉ">
+<input type="text" id="sđt" placeholder="nhập số điện thoại">
+<input type="button" onclick="addNewBenhNhan()" value="Add new Bệnh Nhân">
+<p id="display"></p>
+</body>
+<script>
+    class BenhNhan{
+        constructor(ten, tuoi, diaChi, sđt) {
+            this.ten=ten;
+            this.tuoi=tuoi;
+            this.diaChi=diaChi;
+            this.sđt=sđt;
+        }
+        setTen(ten){
+            this.ten=ten;
+        }
+        setTuoi(tuoi){
+            this.tuoi=tuoi;
+        }
+        setDiaChi(diaChi){
+            this.diaChi=diaChi;}
+
+        setSdt(sđt){
+            this.sđt=sđt;
+        }
+        getTen(){
+            return this.ten;
+        }
+        getTuoi(){
+            return this.tuoi;
+        }
+        getDiaChi(){
+            return this.diaChi;
+        }
+        getSđt(){
+            return this.sđt;
+        }
+    }
+    let danhSachBenhNhan = [];
+    display(danhSachBenhNhan);
+    function display(list) {
+        let tableString = '<table border="1">\n' +
+            '    <tr>\n' +
+            '        <th>STT</th>\n' +
+            '        <th>Ten</th>\n' +
+            '        <th>Tuoi</th>\n' +
+            '        <th>DiaChi</th>\n' +
+            '        <th>Sđt</th>\n' +
+            '        <th>Delete</th>\n' +
+            '        <th>Edit</th>\n' +
+            '    </tr>';
+        for (let i = 0; i < list.length; i++) {
+            tableString += '<tr>\n' +
+                '        <td>' + (i + 1) + '</td>\n' +
+                '        <td>' + list[i].getTen() + '</td>\n' +
+                '        <td>' + list[i].getTuoi() + '</td>\n' +
+                '        <td>' + list[i].getDiaChi() + '</td>\n' +
+                '        <td>' + list[i].getSđt() + '</td>\n' +
+                '        <td><input type="button" onclick="deleteBenhNhanById(' + i + ')" value="Delete"></td>\n' +
+                '        <td><input type="button" onclick="editBenhNhanById(' + i + ')" value="Edit"></td>\n' +
+                '    </tr>';
+        }
+        tableString += '</table>';
+        document.getElementById("display").innerHTML = tableString;
+    }
+    function deleteBenhNhanById(index) {
+        let conf = confirm("Bạn có muốn xoá sinh viên tên: " + danhSachBenhNhan[index].getTen());
+        if (conf) {
+            danhSachBenhNhan.splice(index, 1);
+        }
+        display(danhSachBenhNhan);
+    }
+    function editBenhNhanById(index) {
+        let editTen=prompt("nhập mã tên mới:" + danhSachBenhNhan[index].getMa());
+        let editTuoi=prompt("nhập tên tuôi mới:");
+        let editDiaChi=prompt("nhập địa chỉ mới:");
+        let editSdt=prompt("nhập số điện thoại mới:");
+        danhSachBenhNhan[index].setTen(editTen);
+        danhSachBenhNhan[index].setTuoi(editTuoi);
+        danhSachBenhNhan[index].setDiaChi(editDiaChi);
+        danhSachBenhNhan[index].setSdt(editSdt);
+        display(danhSachBenhNhan);
+    }
+    function addNewBenhNhan() {
+        let ten = document.getElementById("ten").value;
+        let tuoi = document.getElementById("tuoi").value;
+        let diaChi = document.getElementById("diaChi").value;
+        let sđt = document.getElementById("sđt").value;
+        let newBenhNhan = new BenhNhan(ten,tuoi,diaChi,sđt);
+        danhSachBenhNhan.push(newBenhNhan);
+        display(danhSachBenhNhan);
+        document.getElementById("ten").value="";
+        document.getElementById("tuoi").value="";
+        document.getElementById("diaChi").value="";
+        document.getElementById("sđt").value="";
+    }
+</script>
+</html>

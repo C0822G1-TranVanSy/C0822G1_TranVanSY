@@ -20,14 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b85af1-140b-4a27-9eeb-4387094aee0c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/ung_dung_quan_ly_san_pham.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/bai_tap/xay_dung_lop_mo_ta_hinh_chu_nhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/bai_tap/xay_dung_mo_ta_temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/thuc_hanh/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss1_baitap/demo4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_kiem_tra_so_nguyen_to.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_kiem_tra_so_nguyen_to.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_1/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_1/bai_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_1/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_1/bai_3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_1/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_1/bai_5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_7.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_9.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +141,7 @@
       <workItem from="1663383539220" duration="22000" />
       <workItem from="1663552565724" duration="10047000" />
       <workItem from="1663636654864" duration="19292000" />
-      <workItem from="1663722869772" duration="1459000" />
+      <workItem from="1663722869772" duration="17977000" />
     </task>
     <servers />
   </component>
@@ -236,9 +245,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1663318663880" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1663311851803">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1663758668696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1663311851803" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1663758668696" />
   </component>
 </project>

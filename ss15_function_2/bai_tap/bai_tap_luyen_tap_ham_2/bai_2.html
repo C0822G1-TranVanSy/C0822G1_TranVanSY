@@ -8,13 +8,13 @@
 
 </body>
 <script>
-    function tinhChuVi() {
+    function tinhChuVi(number) {
         return 2 * 3.14 * number;
     }
 
-    let number = +prompt("Nhập bán kính: ");
-    let chuVi = tinhChuVi(number);
-    let dienTich = (tinhChuVi(number) * tinhChuVi(number)) / (4 * 3.14);
+    let number1 = +prompt("Nhập bán kính: ");
+    let chuVi = tinhChuVi(number1);
+    let dienTich = (tinhChuVi(number1) * tinhChuVi(number1)) / (4 * 3.14);
     document.write("Chu vi là: " + chuVi + " Diện tích là: " + dienTich);
 </script>
 </html>

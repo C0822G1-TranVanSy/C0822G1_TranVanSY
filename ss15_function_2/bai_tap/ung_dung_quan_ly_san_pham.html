@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Add new product</h2>
+<label for="nhap"></label>
+<input type="text" placeholder="New product" id="nhap">
+<button onclick="themSanPham()">Add</button>
+<!--<h2>Display all product</h2>-->
+<p id=display></p>
+</body>
+<script>
+
+    let danhSach = ["iphone", "samsung", "nokia"];
+    hienThi();
+
+    function themSanPham() {
+        let sanPham = document.getElementById("nhap").value;
+        if (sanPham !== "") {
+            danhSach.push(sanPham);
+        } else {
+            alert("vui lòng điền tên sản phẩm");
+        }
+        document.getElementById("nhap").value = "";
+        hienThi();
+    }
+    function hienThi() {
+        let tableString = '<table border="1">\n' +
+            '    <tr>\n' +
+            '        <th>STT</th>\n' +
+            '        <th>Sản Phẩm</th>\n' +
+            '        <th>Sửa</th>\n' +
+            '        <th>Xóa</th>\n' +
+            '    </tr>';
+        for (let i = 0; i < danhSach.length; i++) {
+            tableString += '    <tr>\n' +
+                '        <td>' + (i + 1) + '</td>\n' +
+                '        <td>' + danhSach[i] + '</td>\n' +
+                '        <td>edit</td>\n' +
+                '        <td>delete</td>\n' +
+                '    </tr>';
+
+        }
+        tableString +='</table>';
+        document.getElementById("display").innerHTML = tableString;
+    }
+</script>
+</html>

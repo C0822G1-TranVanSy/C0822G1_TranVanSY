@@ -8,24 +8,22 @@
 
 </body>
 <script>
-    function mang1(number) {
-        let doDai = +prompt("Nhap do dai mang");
-        let array = [];
-        for (let i = 0; i < doDai; i++) {
-            array[i] = +prompt("Nhập phần tử thứ " + (i + 1));
-        }
-
+    function checkNumber(array, number) {
         let count = 0;
         for (let i = 0; i < array.length; i++) {
             if (number === array[i]) {
                 count++;
             }
         }
-        document.write("Số lần xuất hiện của số đó: " + count);
+        if (count===0){
+            return -1;
+        }
+        return count;
     }
 
-    let number = +prompt("Nhập số bất kỳ");
-    mang1(number);
-
+    let array1 = [1, 2, 3, 4, 5];
+    let number1 = +prompt("Nhập số bất kỳ: ");
+    let dem = checkNumber(array1, number1);
+    document.write("Số lần xuất hiện: " + dem);
 </script>
 </html>
