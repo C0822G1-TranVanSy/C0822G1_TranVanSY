@@ -10,11 +10,11 @@
 
 
     function checkNumber() {
-        let number = +prompt("Nhập 1 số vào: ");
         return !isNaN(number);
     }
 
-    let result = checkNumber();
+    let number = +prompt("Nhập 1 số vào: ");
+    let result = checkNumber(number);
     alert(result);
 
 </script>

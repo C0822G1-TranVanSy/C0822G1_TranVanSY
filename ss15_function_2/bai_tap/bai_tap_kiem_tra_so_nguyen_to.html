@@ -17,19 +17,20 @@
                     break;
                 }
             }
-            if (count === 0) {
-                return " là số nguyên tố";
-            } else {
-                return " không phải là số nguyên tố";
-            }
+            return count === 0;
         } else {
-            return " không phải là số nguyên tố";
+            return false;
         }
     }
 
     let num = +prompt("Nhập vào 1 số: ");
     let result = isPrime(num);
-    document.write(num + result);
+    if (result === true) {
+        alert(num + " là số nguyên tố");
+    } else {
+        alert(num + " không phải là số nguyên tố");
+    }
+
 
 </script>
 </html>

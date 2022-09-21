@@ -12,12 +12,12 @@
         let doDai = +prompt("Nhap do dai mang");
         let array = [];
         for (let i = 0; i < doDai; i++) {
-             array[i] = +prompt("Nhập phần tử thứ " + (i + 1));
+            array[i] = +prompt("Nhập phần tử thứ " + (i + 1));
         }
-        document.write(array.reverse());
+        return array.reverse();
     }
 
-    mang();
-    document.write(array);
+    let result = mang();
+    document.write("Mảng đã đảo ngược: " + result);
 </script>
 </html>

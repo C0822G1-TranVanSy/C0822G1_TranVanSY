@@ -8,12 +8,12 @@
 
 </body>
 <script>
-    function binhPhuong() {
-        let number = +prompt("Nhập 1 số bất kỳ: ");
-        return number * number;
+    function binhPhuong(num) {
+        return num * num;
     }
 
-    let result = binhPhuong();
+    let number = +prompt("Nhập 1 số bất kỳ: ");
+    let result = binhPhuong(number);
     document.write("Bình phương của số đó là: " + result);
 </script>
 </html>
