@@ -20,23 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8b85af1-140b-4a27-9eeb-4387094aee0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/ung_dung_quan_ly_san_pham.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/bai_tap/xay_dung_lop_mo_ta_hinh_chu_nhat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/bai_tap/xay_dung_mo_ta_temperature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/thuc_hanh/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss1_baitap/demo4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/bai_tap_adam_va_eva.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/bai_tap_cong_tac_bong_den.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_1/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_1/bai_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_1/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_1/bai_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_1/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_1/bai_5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/bai_tap_luyen_tap_ham_2/bai_9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_function_2/bai_tap/ung_dung_quan_ly_san_pham.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_function_2/bai_tap/ung_dung_quan_ly_san_pham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/bai_tap/xay_dung_mo_ta_temperature.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/bai_tap/xay_dung_mo_ta_temperature.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +130,8 @@
       <workItem from="1663552565724" duration="10047000" />
       <workItem from="1663636654864" duration="19292000" />
       <workItem from="1663722869772" duration="17977000" />
+      <workItem from="1663774707898" duration="2384000" />
+      <workItem from="1663809115727" duration="13513000" />
     </task>
     <servers />
   </component>

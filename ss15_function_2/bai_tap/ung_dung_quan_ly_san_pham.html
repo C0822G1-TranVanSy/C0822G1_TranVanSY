@@ -9,7 +9,8 @@
 <label for="nhap"></label>
 <input type="text" placeholder="New product" id="nhap">
 <button onclick="themSanPham()">Add</button>
-<!--<h2>Display all product</h2>-->
+<h2>Display all product</h2>
+<span>Số lượng sản phẩm: </span><span id="soluong"></span>
 <p id=display></p>
 </body>
 <script>
@@ -27,25 +28,40 @@
         document.getElementById("nhap").value = "";
         hienThi();
     }
+
     function hienThi() {
-        let tableString = '<table border="1">\n' +
+        let tableString = '<table border="1" >\n' +
             '    <tr>\n' +
             '        <th>STT</th>\n' +
             '        <th>Sản Phẩm</th>\n' +
-            '        <th>Sửa</th>\n' +
-            '        <th>Xóa</th>\n' +
+            '        <th>Chỉnh Sửa</th>\n' +
+            '        <th>Xóa Sản Phẩm</th>\n' +
             '    </tr>';
         for (let i = 0; i < danhSach.length; i++) {
             tableString += '    <tr>\n' +
                 '        <td>' + (i + 1) + '</td>\n' +
                 '        <td>' + danhSach[i] + '</td>\n' +
-                '        <td>edit</td>\n' +
-                '        <td>delete</td>\n' +
+                '        <td><button type="button" onclick="chinhSua(' + i + ')">Edit</button></td>\n' +
+                '        <td><button type="button" onclick="xoaSanPham(' + i + ')">Delete</button></td>\n' +
                 '    </tr>';
 
         }
-        tableString +='</table>';
+        tableString += '</table>';
         document.getElementById("display").innerHTML = tableString;
+        document.getElementById("soluong").innerHTML = danhSach.length + " products";
+    }
+
+    function chinhSua(index) {
+        danhSach[index] = prompt("Nhập lại tên sản phẩm: " + danhSach[index]);
+        hienThi();
+    }
+
+    function xoaSanPham(index) {
+        let xacNhanXoa = confirm("Bạn có muốn xóa sản phầm này không: " + danhSach[index])
+        if (xacNhanXoa) {
+            danhSach.splice(index, 1);
+        }
+        hienThi();
     }
 </script>
 </html>

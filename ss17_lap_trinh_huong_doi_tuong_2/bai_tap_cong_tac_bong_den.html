@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    class BongDen {
+        constructor(trangthai) {
+            this.status = trangthai;
+        }
+
+        gettrangThai() {
+            return this.status;
+        }
+
+        denSang() {
+            this.status = true;
+        }
+
+        denTat() {
+            this.status = false;
+        }
+    }
+
+    class CongTac {
+        constructor(trangThaiCongTac,bongDen) {
+            this.statusCongTac = trangThaiCongTac;
+            this.BongDen = bongDen;
+        }
+        setBongDen(bongDen){
+            this.BongDen = bongDen;
+        }
+        getBongDen(){
+            return this.BongDen;
+        }
+        noiBongDen(bongDen) {
+            this.BongDen = bongDen;
+        }
+
+        congTacMo() {
+            this.trangThaiCongTac = true;
+            this.BongDen.denSang();
+        }
+
+        conTacDong() {
+            this.trangThaiCongTac = false;
+            this.BongDen.denTat();
+        }
+    }
+    let bongDen1 = new BongDen(false);
+    let congTac1 = new CongTac(bongDen1,false);
+    congTac1.noiBongDen(bongDen1);
+    for (let i = 0; i < 10; i++) {
+        congTac1.congTacMo();
+        document.write("Công tắc bật đèn: " + bongDen1.gettrangThai() + "<br>");
+        congTac1.conTacDong();
+        document.write("Công tắc tắt đèn : " + bongDen1.gettrangThai() + "<br>");
+    }
+</script>
+</html>
