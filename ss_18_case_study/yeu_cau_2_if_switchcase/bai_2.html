@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let kyTu = prompt("Nhập ký tự bạn muốn kiểm tra: ");
+
+    // let nguyenAm = ["o", "u", "i", "a", "e", "O", "U", "I", "A", "E"];
+    // let phuAm = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z",
+    //     "B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V", "W", "X", "Y", "Z"]
+    //
+    // if (phuAm.indexOf(kyTu) !== -1) {
+    //     document.write(kyTu + " là phụ âm");
+    // } else if (nguyenAm.indexOf(kyTu) !== -1) {
+    //     document.write(kyTu + " là nguyên âm");
+    // } else {
+    //     document.write("Không phải ký tự trong bảng chữ cái tiếng anh");
+    // }
+
+
+    if ((kyTu >= "a" && kyTu <= "z") || ((kyTu >= "A" && kyTu <= "Z"))) {
+        switch (kyTu) {
+            case "o":
+            case "u":
+            case "i":
+            case "a":
+            case "e":
+            case "O":
+            case "U":
+            case "I":
+            case "A":
+            case "E":
+                document.write("Ký tự này là nguyên âm");
+                break;
+            default:
+                document.write("Ký tự này là phụ âm");
+        }
+    } else {
+        document.write("Không phải là ký tự trong bảng chữ cái tiếng anh");
+    }
+
+
+</script>
+</html>

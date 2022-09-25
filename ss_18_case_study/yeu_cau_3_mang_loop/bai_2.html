@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    // Bài 2: Cho 2 mảng A và B chứa số nguyên. Tìm ra một mảng đã được sắp xếp chứa
+    // các phần tử xuất hiện trong mảng B nhưng lại không xuất hiện A
+    // Chú ý các phần tử giống nhau chỉ tính là 1 lần xuất hiện
+    // Ví dụ:  A=[7,2,5,3,5,3] và B=[7,2,5,4,6,3,5,3] thì kết quả missingValue(A, B) = [4, 6]
+    arrayA = [1, 3, 5, 9, 3];
+    arrayB = [8, 7, 6, 5, 4, 3, 2, 1];
+    arrayAB = [];
+    for (let i = 0; i < arrayB.length; i++) {
+        if (arrayA.indexOf(arrayB[i]) === -1) {
+            arrayAB.push(arrayB[i]);
+        }
+    }
+    document.write("Mảng chứa các phần từ trong mảng B nhưng không xuất hiện trong mảng A là: " + arrayAB.sort());
+</script>
+</html>

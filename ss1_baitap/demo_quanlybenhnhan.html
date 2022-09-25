@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label for=name></label><input type="text" id=name>
+<label for=age></label><input type="text" id=age>
+<label for=address></label><input type="text" id=address>
+<label for=phone></label><input type="text" id=phone>
+<button onclick="themBenhNhan()"> Add</button>
+<p id="display"></p>
+</body>
+<script>
+    class BenhNhan {
+        constructor(name, age, address, phone) {
+            this.name = name;
+            this.age = age;
+            this.address = address;
+            this.phone = phone;
+        }
+
+        setName(name) {
+            this.name = name;
+        }
+
+        getName() {
+            return this.name;
+        }
+
+        setAge(age) {
+            this.age = age;
+        }
+
+        getAge() {
+            return this.age;
+        }
+
+        setAddress(address) {
+            this.address = address;
+        }
+
+        getAddress() {
+            return this.address;
+        }
+
+        setPhone(phone) {
+            this.phone = phone;
+        }
+
+        getPhone() {
+            return this.phone;
+        }
+    }
+
+    danhSachBenhNhan = [];
+    hienThi(danhSachBenhNhan);
+
+    function hienThi(list) {
+        let tableString = '<table border="1">\n' +
+            '    <tr>\n' +
+            '        <th>STT</th>\n' +
+            '        <th>Name</th>\n' +
+            '        <th>Age</th>\n' +
+            '        <th>Address</th>\n' +
+            '        <th>Phone</th>\n' +
+            '        <th>Edit</th>\n' +
+            '        <th>Delete</th>\n' +
+            '    </tr>';
+        for (let i = 0; i < danhSachBenhNhan.length; i++) {
+            tableString += '<tr>\n' +
+                '        <td>' + (i + 1) + '</td>\n' +
+                '        <td>' + list[i].getName() + '</td>\n' +
+                '        <td>' + list[i].getAge() + '</td>\n' +
+                '        <td>' + list[i].getAddress() + '</td>\n' +
+                '        <td>' + list[i].getPhone() + '</td>\n' +
+                '        <td><button onclick="chinhSua(' + i + ')">Edit</button></td>\n' +
+                '        <td><button onclick="xoaBenhNhan(' + i + ')">Delete</button></td>\n' +
+                '    </tr>';
+        }
+        tableString += '</table>';
+        document.getElementById("display").innerHTML = tableString;
+    }
+
+    function themBenhNhan() {
+        let ten = document.getElementById("name").value;
+        let tuoi = document.getElementById("age").value;
+        let diaChi = document.getElementById("address").value;
+        let soDT = document.getElementById("phone").value;
+        let benhNhanMoi = new BenhNhan(ten, tuoi, diaChi, soDT);
+        if (ten === "" || tuoi === "" || diaChi === "" || soDT === "") {
+            alert("vui lòng nhập thông tin");
+        } else {
+            danhSachBenhNhan.push(benhNhanMoi);
+        }
+
+        hienThi(danhSachBenhNhan);
+        document.getElementById("name").value = "";
+        document.getElementById("age").value = "";
+        document.getElementById("address").value = "";
+        document.getElementById("phone").value = "";
+    }
+
+    function chinhSua(index) {
+        let suaTen = prompt("Nhập tên mới: ");
+        let suaTuoi = prompt("Nhập tuổi mới: ");
+        let suaDiaChi = prompt("Nhập địa chỉ mới: ");
+        let suaSoDT = prompt("Nhập số điện thoại mới: ");
+        danhSachBenhNhan[index].setName(suaTen);
+        danhSachBenhNhan[index].setAge(suaTuoi);
+        danhSachBenhNhan[index].setAddress(suaDiaChi);
+        danhSachBenhNhan[index].setPhone(suaSoDT);
+        hienThi(danhSachBenhNhan);
+    }
+
+    function xoaBenhNhan(index) {
+        let xacNhan = confirm("Bạn có muốn xóa không");
+        if (xacNhan) {
+            danhSachBenhNhan.splice(index, 1);
+        }
+        hienThi(danhSachBenhNhan);
+    }
+</script>
+</html>

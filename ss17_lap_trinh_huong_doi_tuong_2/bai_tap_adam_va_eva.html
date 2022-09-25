@@ -9,29 +9,21 @@
 </body>
 <script>
     class Apple {
-        constructor(weight1) {
-            this.weight1 = weight1;
+        constructor() {
+            this.weight1 = 10;
         }
-
-        getWeight1() {
+        getWeight1(){
             return this.weight1;
         }
-
         empty() {
-            if (this.weight1 < 1) {
+            if (this.weight1 === 0) {
                 return true;
-            } else {
-                return false;
             }
+            return false;
         }
 
-        giamTao() {
-            if (this.empty()) {
-                return "Hết táo rồi";
-            } else {
-                return this.weight1--;
-            }
-
+        decrease() {
+            this.weight1--;
         }
     }
 
@@ -41,38 +33,40 @@
             this.gender = gender;
             this.weight2 = weight2;
         }
-
         getWeight2() {
             return this.weight2;
         }
-
+        checkApple(tao1){
+            if(tao1.empty()){
+                return false;
+            }
+            return true;
+        }
         eatApple(tao1) {
-            if (tao1.getWeight1() > 0) {
+            if (this.checkApple(tao1)) {
                 this.weight2++;
+                tao1.decrease();
             } else {
-                return "Hết táo rồi";
+                alert("Hết táo rồi") ;
             }
 
         }
     }
 
-    let tao = new Apple(10);
+    let tao = new Apple();
     let person1 = new Human("Adam", "Nam", 80);
     let person2 = new Human("Eva", "Nữ", 50);
-
-    while (tao.empty() !== true) {
+        while (!tao.empty(tao)){
         document.write("Adam ăn táo: " + "<br>")
         person1.eatApple(tao);
-        tao.giamTao();
         document.write("Khối lượng táo còn: " + tao.getWeight1() + "<br> Khối lượng của Adam: " + person1.getWeight2() + "<br>");
         document.write("Eva ăn táo: " + "<br>");
         person2.eatApple(tao);
-        tao.giamTao();
         document.write("Khối lượng táo còn: " + tao.getWeight1() + "<br> Khối lượng của Eva: " + person2.getWeight2() + "<br>");
-        if (tao.weight1 === 0) {
-            document.write("Hết táo rồi");
+            if (tao.getWeight1() === 0) {
+                document.write("Hết táo rồi");
+            }
         }
-    }
 
 </script>
 </html>

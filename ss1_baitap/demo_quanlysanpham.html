@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Add new product</h2>
+<label for="nhap"></label>
+<input type="text" id="nhap" placeholder="New Product">
+<button onclick="themSanPham()">Add</button>
+<h3>Display All product</h3>
+<span>Số lượng sản phẩm</span><span id="Soluong"></span>
+<p id="display"></p>
+
+
+</body>
+<script>
+    danhSachSP = ["a", "b"];
+    hienThi();
+
+    function themSanPham() {
+        sanPham = document.getElementById("nhap").value;
+        if (sanPham !== "") {
+            danhSachSP.push(sanPham);
+        } else {
+            alert("Vui lòng nhập tên sản phẩm");
+        }
+        document.getElementById("nhap").value = "";
+        hienThi();
+    }
+
+    function hienThi() {
+        let tableString = '<table ' +
+            'border="1">\n' +
+            '<tr>\n' +
+            '    <th>STT</th>\n' +
+            '    <th>Name</th>\n' +
+            '    <th>Edit</th>\n' +
+            '    <th>Delete</th>\n' +
+            '</tr>';
+        for (let i = 0; i < danhSachSP.length; i++) {
+            tableString += '<tr>\n' +
+                '    <td>' + (i + 1) + '</td>\n' +
+                '    <td>' + danhSachSP[i] + '</td>\n' +
+                '    <td><button onclick="editProduct(' + i + ')">Edit</button></td>\n' +
+                '    <td><button onclick="deleteProduct(' + i + ')">Delete</button></td>\n' +
+                '</tr>';
+        }
+        tableString += '</table >';
+        document.getElementById("display").innerHTML = tableString;
+        document.getElementById("soluong").innerText = danhSachSP.length + "product";
+
+    }
+
+    function editProduct(index) {
+        danhSachSP[index] = prompt("Nhập lại tên sản phẩm");
+        hienThi();
+    }
+    function deleteProduct(index) {
+        let xacNhan = confirm("Bạn có muốn xóa sản phẩm này không");
+        if(xacNhan){
+            danhSachSP.splice(index,1);
+        }
+    hienThi();
+    }
+</script>
+</html>
