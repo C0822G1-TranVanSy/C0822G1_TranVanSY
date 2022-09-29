@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    //Bài 1: Viết hàm tính tổng các số chẵn trong ma trận có kích thước m*n.
+    // Với m, n là các số nhập từ bàn phím.
+    let m = +prompt("Nhập kích thước m: ");
+    let n = +prompt("Nhập kích thước n: ");
+    let array = [];
+    let sum = 0;
+    for (let i = 0; i < m; i++) {
+        array[i] = [];
+        for (let j = 0; j < n; j++) {
+            array[i][j] = +prompt("Nhập phân tử hàng: " + (i + 1) + " cột: " + (j + 1));
+            if (array[i][j] % 2 === 0) {
+                sum += array[i][j];
+            }
+        }
+    }
+    document.write("Mảng kích thước m*n: " + array + "<br>");
+    document.write("Tổng các số chẵn trong mảng:" + sum);
+</script>
+</html>

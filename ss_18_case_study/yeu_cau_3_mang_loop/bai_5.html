@@ -7,4 +7,71 @@
 <body>
 
 </body>
+<script>
+    let thanhTien = 0;
+    let tongTien = 0;
+    let soLuong;
+    let number;
+    do {
+        number = +prompt("1. Cafe \n" +
+            "2. Cam Vắt \n" +
+            "3. Nước ép cà rốt \n" +
+            "4. Nước ép cà chua \n" +
+            "5. Nước lọc \n" +
+            "6. Nước dừa \n" +
+            "7. Exit \n" +
+            "Nhập số thự tự đồ uống:  ");
+        switch (number) {
+            case 1:
+                alert("Đơn giá: 10000đ");
+                soLuong = +prompt("Nhập số lượng: ");
+                thanhTien = 10000 * soLuong;
+                alert("Thành tiền: " + thanhTien);
+                tongTien += thanhTien;
+                break;
+            case 2:
+                alert("Đơn giá: 12000đ");
+                soLuong = +prompt("Nhập số lượng: ");
+                thanhTien = 12000 * soLuong;
+                alert("Thành tiền: " + thanhTien);
+                tongTien += thanhTien;
+                break;
+            case 3:
+                alert("Đơn giá: 13000đ");
+                soLuong = +prompt("Nhập số lượng: ");
+                thanhTien = 13000 * soLuong;
+                alert("Thành tiền: " + thanhTien);
+                tongTien += thanhTien;
+                break;
+            case 4:
+                alert("Đơn giá: 14000đ");
+                soLuong = +prompt("Nhập số lượng: ");
+                thanhTien = 14000 * soLuong;
+                alert("Thành tiền: " + thanhTien);
+                tongTien += thanhTien;
+                break;
+            case 5:
+                alert("Đơn giá: 15000đ");
+                soLuong = +prompt("Nhập số lượng: ");
+                thanhTien = 15000 * soLuong;
+                alert("Thành tiền: " + thanhTien);
+                tongTien += thanhTien;
+                break;
+            case 6:
+                alert("Đơn giá: 16000đ");
+                soLuong = +prompt("Nhập số lượng: ");
+                thanhTien = 16000 * soLuong;
+                alert("Thành tiền: " + thanhTien);
+                tongTien += thanhTien;
+                break;
+            case 7:
+                alert("Tổng tiền: " + tongTien);
+                break;
+            default :
+                alert("Nhập lại số có trong thực đơn");
+        }
+    } while (number !== 7);
+
+
+</script>
 </html>

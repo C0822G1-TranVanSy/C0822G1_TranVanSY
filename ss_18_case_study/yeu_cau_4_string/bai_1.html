@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let str1 = prompt("Nhập chuỗi: ");
+
+    function chuanHoa(str) {
+
+        let arrayString = str.toLowerCase().split(" ");
+        let arrayNew = [];
+        for (let i = 0; i < arrayString.length; i++) {
+            if (arrayString[i] !== "") {
+                arrayNew.push(arrayString[i]);
+            }
+        }
+        let max = arrayNew[0].length;
+        let index = arrayNew[0];
+        for (let i = 0; i < arrayNew.length; i++) {
+            arrayNew[i] = arrayNew[i][0].toUpperCase() + arrayNew[i].slice(1);
+            if(arrayNew[i].length >= max){
+                max = arrayNew[i].length;
+                index = arrayNew[i];
+            }
+        }
+        return arrayNew.join(" ") + "<br>"+ index;
+    }
+    document.write(chuanHoa(str1));
+</script>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let str1 = prompt("Nhập chuỗi: ");
+
+    function checkString(str) {
+        let arrayString = [];
+        for (let i = 0; i < str.length; i++) {
+            if (str[i] >= "A" && str[i] <= "Z") {
+                arrayString.push(str[i]);
+            }
+        }
+        return arrayString.join("");
+    }
+
+    alert(checkString(str1));
+</script>
+</html>
