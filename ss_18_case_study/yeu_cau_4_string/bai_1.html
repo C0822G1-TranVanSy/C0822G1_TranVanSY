@@ -8,10 +8,23 @@
 
 </body>
 <script>
+    // Bài 1: Viết một hàm chuẩn hóa xâu ký tự:
+    // biến đổi xâu ký tự thành xâu sao cho trong xâu không có 2 dấu cách liền nhau và bắt đầu mỗi từ phải in hoa.
+    // Ví dụ tRuong    TaN   HAI => Truong Tan Hai.
+
     let str1 = prompt("Nhập chuỗi: ");
+    function timMax() {
+        let max = array[0].length;
+        let index =[];
+        for (let i = 0; i < array.length; i++) {
+            if (array[i].length > max) {
+                max = array[i].length;
+                index[i] = array[i];
+            }
+        }
+    }
 
     function chuanHoa(str) {
-
         let arrayString = str.toLowerCase().split(" ");
         let arrayNew = [];
         for (let i = 0; i < arrayString.length; i++) {
@@ -19,17 +32,14 @@
                 arrayNew.push(arrayString[i]);
             }
         }
-        let max = arrayNew[0].length;
-        let index = arrayNew[0];
+
         for (let i = 0; i < arrayNew.length; i++) {
             arrayNew[i] = arrayNew[i][0].toUpperCase() + arrayNew[i].slice(1);
-            if(arrayNew[i].length >= max){
-                max = arrayNew[i].length;
-                index = arrayNew[i];
-            }
         }
-        return arrayNew.join(" ") + "<br>"+ index;
+
+        return arrayNew.join(" ") + "<br>";
     }
+    
     document.write(chuanHoa(str1));
 </script>
 </html>

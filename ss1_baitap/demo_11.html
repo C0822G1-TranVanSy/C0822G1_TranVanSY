@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let string = prompt("Nhập chuỗi: ");
+
+    function demKyTu(str) {
+        let count1 = 0;
+        let count2 = 0;
+        for (let i = 0; i < str.length; i++) {
+            if (str[i] >= "a" && str[i]<= "z") {
+                count1++;
+            } else if (str[i] >= "A" && str[i]<= "Z") {
+                count2++;
+            }
+        }
+        return [count2, count2];
+    }
+    alert(demKyTu(string));
+</script>
+</html>
